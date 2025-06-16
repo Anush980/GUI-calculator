@@ -64,4 +64,45 @@ border-radius: 10px;
 }
 tr{
     margin-bottom: 20px;
-color: rgb(68, 56, 80);}
+color: rgb(68, 56, 80);
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+  .main{
+   
+    height: 45vh;
+    width: 50vw;
+   
+    
+}
+.display #display{
+  
+    height: 5vh;
+    width: 44vw;
+  
+margin-top: 5vh; 
+text-align: end;
+padding-right: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+font-size:100%
+}
+
+
+.keypad {
+  
+   
+margin-top: 3vh;
+   
+}
+
+.keypad table tr td{
+  
+    height: 5vh;
+   
+}
+}
