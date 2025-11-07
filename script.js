@@ -5,7 +5,7 @@ function appendValue(value){
     display.value+=value;
 }
 function clearDisplay(){
-    display.value="";
+    display.value="0";
 }
 function backspace(){
     display.value= display.value.slice(0,-1);
