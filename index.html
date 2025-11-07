@@ -15,9 +15,10 @@
             <div class="keypad">
                 <table>
                     <tr>
+                        
                         <td onclick="appendValue('(')">(</td>
                         <td onclick="appendValue(')')">)</td>
-                        <td onclick="appendValue('%')">%</td>
+                        <td onclick="backspace()">⌫</td>
                         <td onclick="clearDisplay()">AC</td>
                     </tr>
                     <tr>
@@ -40,6 +41,7 @@
                     </tr>
                     <tr>
                         <td onclick="appendValue('0')">0</td>
+                        
                         <td onclick="appendValue('.')">.</td>
                         <td onclick="showResult()">=</td>
                         <td onclick="appendValue('+')">+</td>

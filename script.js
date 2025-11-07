@@ -1,11 +1,14 @@
 const display =document.getElementById('display');
-display.value="";
+display.value="0";
 
 function appendValue(value){
     display.value+=value;
 }
 function clearDisplay(){
     display.value="";
+}
+function backspace(){
+    display.value= display.value.slice(0,-1);
 }
 function showResult(){
 try{
