@@ -6,7 +6,6 @@ A simple and interactive graphical calculator built with HTML, CSS, and JavaScri
 
 - Basic arithmetic operations: addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`)
 - Parentheses support: `( )`
-- Percentage `%` calculation
 - Clear (`AC`) button to reset the input
 - Real-time input display and result output
 - Error handling for invalid expressions
